@@ -1,4 +1,3 @@
 pyTelegramBotAPI
 selenium
-webdriver-managernicorn
-pytz
+webdriver-manager
