@@ -44,7 +44,7 @@ def get_driver():
 # ==========================================
 
 @bot.message_handler(commands=['start'])
-def send_welcome(message)
+def send_welcome(message):
     welcome_text = (
         "🤖 **TikTok Auto Bot Active!**\n\n"
         "ধাপ ১: আপনার TikTok লগইন করা ব্রাউজার থেকে কুকিজ (JSON) ফাইল আমাকে পাঠান।\n"
