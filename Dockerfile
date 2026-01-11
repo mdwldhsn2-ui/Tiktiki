@@ -1,5 +1,5 @@
 # ১. পাইথন ৩.৯ ভার্সন
-FROM python:3.9
+FROM python:3.10
 
 # ২. প্রাথমিক টুলস ইনস্টল করা (gnupg এখানে জরুরি)
 RUN apt-get update && apt-get install -y wget gnupg2 unzip curl
